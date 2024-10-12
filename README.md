@@ -1,0 +1,1 @@
+# Anomaly-Detection-Software-Tracking-and-OCR-Based-Text-Extraction-Python-Scripts
