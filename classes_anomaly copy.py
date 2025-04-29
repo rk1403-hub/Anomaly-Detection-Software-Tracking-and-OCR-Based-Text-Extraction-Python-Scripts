@@ -68,7 +68,7 @@ class VulnerabilityPredictor:
         print(f"Predicted current vulnerabilities count for {new_month}-{new_year}: {predicted_vulns[0]}")
 
 def main():
-    connection_string = "mongodb+srv://prajwal:wSnhpJZel3jMaesA@staging.awytu.mongodb.net/?retryWrites=true&w=majority"
+    connection_string = "URI"
     data_processor = DataProcessor(connection_string)
     regression_model = RegressionModel()
     predictor = VulnerabilityPredictor(data_processor, regression_model)
